@@ -7,8 +7,8 @@
 ## 项目说明  
 ```
 config  
-  -SqlMapConfig.xml:Mybatis配置文件  
-  -applicationContext-dao.xml:配置数据源、Mybatis工厂及Mapper扫描  
+  -SqlMapConfig.xml:Mybatis核心配置文件  
+  -applicationContext-dao.xml:配置数据源、Mybatis会话工厂及Mapper扫描  
   -applicationContext-service.xml:配置扫描 @Service  
   -applicationContext-trans.xml:配置事物  
   -jdbc.properties  
