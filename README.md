@@ -1,7 +1,7 @@
 # Agricultural-Service-Platform
 汉中地区特色农业综合服务平台
-## 架构  
-项目基于三层架构，SpringMVC+Spring+Mybatis搭建  
+## 框架  
+项目基于三层架构，由SpringMVC+Spring+Mybatis搭建  
 ## 实现功能  
 用户登录注册模块，购物车、订单模块，后台管理模块  
 ## 项目说明  
@@ -24,7 +24,17 @@ src/com/jc
     -service:业务接口  
         -impl:实现类  
     -utils:工具类  
-```
+```  
+## 数据库表  
+  user:用户表  
+  admin:管理员表  
+  goods:商品表  
+  category:商品分类表  
+  orders:订单表  
+  orderitem:订单项表  
+  supply:供应表  
+
+  
 
 
 
