@@ -8,13 +8,23 @@
 ```
 config  
   -SqlMapConfig.xml:Mybatis核心配置文件  
-  -applicationContext-dao.xml:配置数据源、Mybatis会话工厂及Mapper扫描  
+  -applicationContext-dao.xml:配置数据源、SqlSessionFactory及Mapper扫描  
   -applicationContext-service.xml:配置扫描 @Service  
   -applicationContext-trans.xml:配置事物  
-  -jdbc.properties  
+  -jdbc.properties:配置数据库信息  
   -log4j.properties  
   -resource.properties:存放常量  
   -springmvc.xml:SpringMVC核心配置文件  
+src/com/jc  
+  -controller:处理器  
+    -converter:转换器   
+    -interceptor:拦截器  
+  -dao:Mapper接口及文件  
+  -pojo:实体类  
+  -service:业务接口  
+    -impl:实现类  
+  -utils:工具类  
 ```
+
 
 
