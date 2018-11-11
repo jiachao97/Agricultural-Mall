@@ -14,15 +14,15 @@ config
     -jdbc.properties:配置数据库信息  
     -log4j.properties配置日志  
     -resource.properties:存放常量  
-    -springmvc.xml:SpringMVC核心配置文件  
+    -springmvc.xml:SpringMVC核心配置文件    
 src/com/jc  
     -controller:处理器  
-      -converter:转换器   
-      -interceptor:拦截器  
+        -converter:转换器   
+        -interceptor:拦截器  
     -dao:Mapper接口及文件  
     -pojo:实体类  
     -service:业务接口  
-      -impl:实现类  
+        -impl:实现类  
     -utils:工具类  
 ```
 
