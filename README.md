@@ -26,6 +26,7 @@ src/com/jc
     -utils:工具类  
 ```  
 ## 数据库表  
+```  
   user:用户表  
   admin:管理员表  
   goods:商品表  
@@ -33,6 +34,7 @@ src/com/jc
   orders:订单表  
   orderitem:订单项表  
   supply:供应表  
+```
 
   
 
