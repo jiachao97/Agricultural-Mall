@@ -1,0 +1,54 @@
+@charset "utf-8";
+.wrapper {position: relative; width: 1200px;  margin: auto;  }
+.header-wrap {position:relative; width: 100%;z-index:9;background: #fff;box-shadow: 0 3px 3px -3px #ccc;}
+.public-head-layout {position: relative;width: 1200px;height: 172px;margin: 0 auto;}
+/*.public-head-bg{position: absolute;left: -164px;width: 630px;height: 186px;background: url(../images/dfs/bg_02.png) no-repeat;margin: 0 auto;}*/
+.public-head-layout .site-logo { width: 502px; height: 94px; float: left; position: relative; margin: 40px 0px auto 0; }
+.head-user-menu {  float: right;  font-size: 0;  z-index: 1;  margin-top: 46px;}
+.head-user-menu dl.my-mall { width: 108px;}
+.head-user-menu dl.my-cart { width: 124px;}
+.head-user-menu dl.hover { z-index: 101;}
+.head-user-menu dl>dt {color: #fff;  height: 20px;position: absolute; z-index: 2;  right: 0; cursor: pointer;font-size: 14px;letter-spacing: 1px;font-weight: 500 ;}
+.head-user-menu dl.my-mall dt { width: 105px;height: 40px;top: 5px;line-height: 40px;right: -34px;background-color: #f0f0f0;color: #999999;font-size: 14px;}
+.head-user-menu dl.my-cart>dt { width: 140px; height: 34px;background: url(../images/dfs/gouwu.jpg) no-repeat;}
+.head-user-menu dl.my-cart .cart-num{display: inline-block;float: right;margin: 5px 5px 0 0;width: 21px;height: 21px;line-height: 21px;text-align: center;font-size: 11px;background: #5db524;border-radius: 50%;}
+/* 澶撮儴鎼滅储 */
+.head-search-bar { float: left; width: 455px; margin-left: 42px;margin-top: 46px; }
+.head-search-bar .search-form { height: 36px; padding: 0px;}
+.head-search-bar .search-form ::-webkit-input-placeholder {color: #cccccc; }
+.head-search-bar .search-form :-moz-placeholder {color: #cccccc; }
+.head-search-bar .search-form ::-moz-placeholder {color: #cccccc; }
+.head-search-bar .search-form ::-ms-input-placeholder {color: #cccccc; }
+.head-search-bar .input-text { float:left; padding: 3px 5px; width: 336px; height: 24px;line-height: 24px; color: #666666;text-indent: 5px;font-size: 12px; background-color: #fff; border: 2px solid #5db524;}
+.head-search-bar .input-submit {font-family: '寰蒋闆呴粦'; background-color: #5db524; width: 86px;height:34px;line-height: 34px; padding: 0;float:left; border: none; cursor: pointer; font-size: 16px; font-weight: 400; color: #fff; letter-spacing: 2px;overflow: visible;}
+.head-search-bar .input-submit:hover{background-color: #5db524;}
+.head-search-bar .keyword { line-height: 20px; color: #676564; width: 500px; height: 20px; margin-top: 6px; overflow: hidden;font-weight: 600;}
+.head-search-bar .keyword ul { font-size: 0; *word-spacing:-1px/*IE6銆�7*/; vertical-align: top; display: inline-block; *display:inline/*IE6銆�7*/; margin-left: -10px;}
+.head-search-bar .keyword ul li { font-size: 12px; vertical-align: top; letter-spacing: normal; word-spacing: normal; display: inline-block; *display:inline/*IE6銆�7*/; margin-right: 12px; border-left: 1px solid #c9c9c9; height: 12px; line-height: 12px; padding-left: 10px;}
+.head-search-bar .keyword ul li a { color: #646464; font-weight: 400;}
+.head-search-bar .keyword ul li a:hover {color: #5db524;}
+/* DFS鑷畾涔夊鑸爮 */
+.dfs-ctm-navi {height: 37px; position: absolute; bottom: 0;left:0;width: 100%;}
+.dfs-ctm-navi li{height: 33px; margin: 0;  float: left; cursor: pointer;text-align:center}
+.dfs-ctm-navi li a{display:block; margin: 0 20px;height: 35px;line-height: 35px;color: #333; font-size: 18px;text-decoration: none;vertical-align: top;}
+.dfs-ctm-navi li.dfs-navi-index a{margin-left: 0;}
+.dfs-ctm-navi li i{display: inline-block;width: 20px;height: 20px;vertical-align: top;margin-top: 12px;}
+.dfs-pdt-navi {position: absolute;width: auto; bottom: -50px; background-color: #FFF; left: 0;}
+.dfs-pdt-navi .all-category h3 {font-size: 15px;}
+.dfs-pdt-navi .dfs-pdt-navi-item { background-color: #BA7538;width: 138px; text-align: center; border-right: 2px solid #FFF; float: left;}
+.dfs-pdt-navi .dfs-pdt-navi-item a {line-height: 35px; font-size: 15px; color: #FFF;}
+.dfs-ctm-navi .dfs-navi-active a,.dfs-ctm-navi .dfs-navi-tc-atv a,.dfs-ctm-navi .dfs-navi-xfl-atv a,.dfs-ctm-navi .dfs-navi-mny-atv a,.dfs-ctm-navi .dfs-navi-zcj-atv a,.dfs-ctm-navi .dfs-navi-djj-atv a,.dfs-ctm-navi .dfs-navi-ls-atv a{color:#5db524;border-bottom: 2px solid #5db524;}
+/* 闈㈠寘灞戞墍鍦ㄤ綅缃� */
+.nch-breadcrumb-layout { text-align: center; }
+/*.cur-margin {margin-top: 60px;}*/
+.nch-breadcrumb { font-size: 0; *word-spacing:-1px/*IE6銆�7*/; text-align: left; height: 20px; padding: 14px 0; margin: 0 auto;}
+.nch-breadcrumb span { font-size: 13px; line-height: 20px; color: #999999; letter-spacing: normal; word-spacing: normal; display: inline-block; *display: inline/* IE6,7*/; height: 20px; zoom: 1;}
+.nch-breadcrumb span:first-child a {color:#666666;}
+.nch-breadcrumb i { font-size: 14px; color: #AAA; margin-right: 4px;}
+.nch-breadcrumb span.arrow { font-family: "瀹嬩綋"; line-height: 20px; color: #999999; margin: 0 12px;}
+.nch-breadcrumb span:first-child {font-size: 18px;color: #777777;}
+.nch-breadcrumb a { color: #999999; display: block; }
+.nch-breadcrumb a:hover { color: #6ad971;}
+
+
+

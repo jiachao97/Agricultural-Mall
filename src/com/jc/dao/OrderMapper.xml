@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.jc.dao.OrderMapper">
+	
+	<!-- 添加一条订单 -->
+	<insert id="addOrders" parameterType="com.jc.pojo.Orders">
+		insert into orders values(#{orders_id,jdbcType=VARCHAR},#{orders_total,jdbcType=DOUBLE},#{orders_state,jdbcType=INTEGER},
+		#{orders_createtime,jdbcType=DATE},#user_code,jdbcType=VARCHAR},#user_telephone,jdbcType=VARCHAR},#{user_address,jdbcType=VARCHAR})
+	</insert>
+	
+	<!-- 添加一条订单项 -->
+	<insert id="addOrderItem" parameterType="com.jc.pojo.OrderItem">
+		insert into orderitem values(#{orderItem_id,jdbcType=VARCHAR},#{orderItem_count,jdbcType=INTEGER},
+		#{orderItem_subtotal,jdbcType=DOUBLE},#{goods_id,jdbcType=INTEGER},#{orders_id,jdbcType=VARCHAR})
+	</insert>
+	
+</mapper>

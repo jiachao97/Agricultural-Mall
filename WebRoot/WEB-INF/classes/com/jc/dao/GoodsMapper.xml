@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.jc.dao.GoodsMapper">
+	
+	<!-- 根据id查询商品 -->
+	<select id="getGoodsById" parameterType="java.lang.Integer" resultType="com.jc.pojo.Goods">
+		select * from goods where goods_id=#{goods_id}
+	</select>
+	
+	<!-- 根据商品分类id查询商品列表 -->
+	<select id="getGoodsByCateId" parameterType="java.lang.Integer" resultType="com.jc.pojo.Goods">
+		select * from goods where cate_id=#{cate_id}
+	</select>
+	
+	<delete id="delGoodsById" parameterType="java.lang.Integer">
+		delete * from goods where goods_id=#{goods_id}
+	</delete>
+	
+	<!-- 
+	<insert id="addGoods" parameterType="com.jc.pojo.Goods">
+		insert into goods values(null,'#{goods_name}','#{goods_original_price}','#{goods_current_price}','#{goods_sales_volumn}','#{goods_images}','#{cate_id}')
+	</insert>
+	 -->
+	
+	<!-- 
+	<update id="updateGoods" parameterType="com.jc.pojo.Goods">
+		update goods 
+		<set>
+			<if test="goods_name !=null and goods_name !=''">
+				goods_name=#{goods_name}
+			</if>
+			<if test="gooods_original_price !=null and gooods_original_price !=''">
+				gooods_original_price=#{gooods_original_price}
+			</if>
+			<if test="goods_current_price !=null and goods_current_price !=''">
+				goods_current_price=#{goods_current_price}
+			</if>
+			<if test="goods_sales_volumn !=null and goods_sales_volumn !=''">
+				goods_sales_volumn=#{goods_sales_volumn}
+			</if>
+			<if test="goods_images !=null and goods_images !=''">
+				goods_images=#{goods_images}
+			</if>
+			<if test="cate_id !=null and cate_id !=''">
+				cate_id=#{cate_id}
+			</if>
+		</set>
+		where goods_id=#{goods_id}
+	</update>
+	 -->
+	
+</mapper>
