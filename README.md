@@ -5,5 +5,9 @@
 ## 实现功能  
 用户登录注册模块，购物车、订单模块，后台管理模块  
 ## 项目整体架构  
+```
+config  
+  -SqlMapConfig.xml:MyBatis配置文件  
+  -applicationContext-dao.xml:
 
 
