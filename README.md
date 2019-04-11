@@ -1,5 +1,5 @@
 # Agricultural-Service-Platform
-汉中地区特色农业综合服务平台
+特色农业网站
 ## 框架  
 项目基于三层架构，由SpringMVC+Spring+Mybatis搭建  
 ## 实现功能  
