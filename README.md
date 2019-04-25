@@ -1,5 +1,4 @@
-# Agricultural-Service-Platform
-农业商城项目
+# 农业商城项目
 ## 框架  
 项目基于三层架构，由SpringMVC+Spring+Mybatis搭建  
 ## 实现功能  
