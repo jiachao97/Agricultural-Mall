@@ -1,5 +1,5 @@
 # Agricultural-Service-Platform
-特色农业网站
+农业商城项目
 ## 框架  
 项目基于三层架构，由SpringMVC+Spring+Mybatis搭建  
 ## 实现功能  
