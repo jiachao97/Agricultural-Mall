@@ -10,7 +10,7 @@ config
     -SqlMapConfig.xml:Mybatis核心配置文件  
     -applicationContext-dao.xml:配置数据源、SqlSessionFactory及Mapper扫描  
     -applicationContext-service.xml:配置扫描@Service  
-    -applicationContext-trans.xml:配置事物  
+    -applicationContext-trans.xml:配置事务  
     -jdbc.properties:配置数据库信息  
     -log4j.properties配置日志  
     -resource.properties:存放常量  
