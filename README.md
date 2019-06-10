@@ -1,6 +1,6 @@
 # 农业商城项目
 ## 框架  
-项目基于三层架构，由SpringMVC+Spring+Mybatis搭建  
+SpringMVC+Spring+Mybatis  
 ## 实现功能  
 用户登录注册模块，购物车、订单模块，后台管理模块  
 ## 项目说明  
