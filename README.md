@@ -1,4 +1,4 @@
-# 农业商城项目
+# 农业商城
 ## 框架  
 SpringMVC+Spring+Mybatis  
 ## 实现功能  
